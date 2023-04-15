@@ -19,9 +19,9 @@ int simple_init(void)
 	// Imprime el número primo más cercano al número aureo
 	printk(KERN_INFO "%lu\n", GOLDEN_RATIO_PRIME);
 	// Imprime el valor de los jiffies
-	printk(KERN_INFO "Value of jiffies is %lu\n", tick);
+	printk(KERN_INFO "Valor de los jiffies es %lu\n", tick);
 	// Imprime el valor de los hercios
-	printk(KERN_INFO "Value of HZ is %d\n", tick_freq);
+	printk(KERN_INFO "Value de HZ es %d\n", tick_freq);
 	return 0;
 }
 
