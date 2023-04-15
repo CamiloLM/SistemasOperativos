@@ -17,7 +17,7 @@ int simple_init(void)
 	// Mensaje cuando carga el kernel
 	printk(KERN_INFO "Loading Kernel Module\n");
 	// Imprime el número primo más cercano al número aureo
-	printk(KERN_INFO "%lu\n", GOLDEN_RATIO_PRIME);
+	printk(KERN_INFO "El valor del golden ratio prime es %llu\n", GOLDEN_RATIO_PRIME);
 	// Imprime el valor de los jiffies
 	printk(KERN_INFO "Valor de los jiffies es %lu\n", tick);
 	// Imprime el valor de los hercios
