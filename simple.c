@@ -3,12 +3,12 @@
 #include <linux/module.h>
 
 int simple_init(void) {
-	printk(KERN_INFO "Loading Kernel Module uwu\n");
+	printk(KERN_INFO "Loading Kernel Module UwU\n");
 	return 0;
 }
 
 void simple_exit(void) {
-	printk(KERN_INFO "Removin Kernerl Module\n");
+	printk(KERN_INFO "Removing Kernel Module OwO\n");
 }
 
 module_init(simple_init);
